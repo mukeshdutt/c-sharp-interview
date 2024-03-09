@@ -7,7 +7,7 @@ public class PrinterServices : IPrinterService
         return true;
     }
 
-    public void Print()
+    public void Print(string content)
     {
 
     }

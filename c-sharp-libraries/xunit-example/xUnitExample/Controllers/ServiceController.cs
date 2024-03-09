@@ -1,4 +1,4 @@
-namespace xUnitExample.Controlles;
+namespace xUnitExample.Controllers;
 
 using Microsoft.AspNetCore.Mvc;
 using xUnitExample.Services;
@@ -18,22 +18,27 @@ public class ServiceController : ControllerBase
 
     public string Index(int guessedNumber)
     {
+        string result = string.Empty;
         if (guessedNumber < 100)
         {
-            return "Wrong!, Try a bigger number.";
+            result = "Wrong! Try a bigger number.";
         }
-        else if (guessedNumber > 100)
+        else if (guessedNumber == 100)
         {
-            return "Wrong!, Try a smalled number.";
+            result = "You guessed a correct number.";
+        }
+        else
+        {
+            result = "Wrong! Try a smaller number.";
         }
         if (_printerService.IsPrinterAvailable())
         {
-            _printerService.Print();
+            _printerService.Print("print this message");
         }
         if (_emailService.IsEmailAvailable())
         {
             _emailService.SendEmail();
         }
-        return "You guessed correct number.";
+        return result;
     }
 }

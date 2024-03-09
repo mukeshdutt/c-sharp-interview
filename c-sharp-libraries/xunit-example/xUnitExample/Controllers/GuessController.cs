@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace xUnitExample.Controlles;
+namespace xUnitExample.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -10,11 +10,11 @@ public class GuessController : ControllerBase
     {
         if (guessedNumber < 100)
         {
-            return "Wrong!, Try a bigger number.";
+            return "Wrong! Try a bigger number.";
         }
         else if (guessedNumber > 100)
         {
-            return "Wrong!, Try a smalled number.";
+            return "Wrong! Try a smalled number.";
         }
         return "You guessed correct number.";
     }

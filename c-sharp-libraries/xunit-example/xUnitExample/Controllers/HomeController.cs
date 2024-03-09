@@ -1,4 +1,4 @@
-namespace xUnitExample.Controlles;
+namespace xUnitExample.Controllers;
 
 using Microsoft.AspNetCore.Mvc;
 
