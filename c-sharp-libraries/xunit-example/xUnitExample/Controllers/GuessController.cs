@@ -1,10 +1,10 @@
-namespace xUnitExample;
-
 using Microsoft.AspNetCore.Mvc;
+
+namespace xUnitExample.Controlles;
 
 [ApiController]
 [Route("api/[controller]")]
-public class HomeController : ControllerBase
+public class GuessController : ControllerBase
 {
     public string Index(int guessedNumber)
     {
@@ -16,9 +16,6 @@ public class HomeController : ControllerBase
         {
             return "Wrong!, Try a smalled number.";
         }
-        else
-        {
-            return "You guessed correct number.";
-        }
+        return "You guessed correct number.";
     }
 }
