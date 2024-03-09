@@ -1,6 +1,6 @@
 namespace xUnitExample.Tests.Controllers;
 
-using xUnitExample.Controlles;
+using xUnitExample.Controllers;
 
 public class HomeControllerTest
 {

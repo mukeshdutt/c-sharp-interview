@@ -9,7 +9,7 @@ public class MockePrinterService : IPrinterService
         return true;
     }
 
-    public void Print()
+    public void Print(string content)
     {
         //
     }

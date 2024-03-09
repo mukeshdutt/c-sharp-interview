@@ -1,6 +1,6 @@
-namespace xUnitExample.Controlles;
+namespace xUnitExample.Tests.Controllers;
 
-using xUnitExample.Controlles;
+using xUnitExample.Controllers;
 
 public class GuessControllerTest
 {
@@ -10,7 +10,7 @@ public class GuessControllerTest
         // Arrange
         GuessController guessController = new();
         int guessedNumber = 10;
-        string expectedResult = "Wrong!, Try a bigger number.";
+        string expectedResult = "Wrong! Try a bigger number.";
 
         // Act
         string result = guessController.Index(guessedNumber);
@@ -25,7 +25,7 @@ public class GuessControllerTest
         // Arrange
         GuessController guessController = new();
         int guessedNumber = 110;
-        string expectedResult = "Wrong!, Try a smalled number.";
+        string expectedResult = "Wrong! Try a smalled number.";
 
         // Act
         string result = guessController.Index(guessedNumber);
