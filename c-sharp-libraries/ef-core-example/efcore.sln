@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "efcore.consoleapp", "efcore.consoleapp\efcore.consoleapp.csproj", "{F9099AFD-DB97-4B8F-86FB-0FE890AD2BE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "efcore.services", "efcore.services\efcore.services.csproj", "{2DF6BDDA-0CE6-454C-997E-EF99D3B1BC7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "efcore.models", "efcore.models\efcore.models.csproj", "{52727C12-1B2C-4B88-A336-E3136567D160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "efcore.api", "efcore.api\efcore.api.csproj", "{A68FF094-DFB8-4B22-9842-831B1A03B57E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{F9099AFD-DB97-4B8F-86FB-0FE890AD2BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9099AFD-DB97-4B8F-86FB-0FE890AD2BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9099AFD-DB97-4B8F-86FB-0FE890AD2BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF6BDDA-0CE6-454C-997E-EF99D3B1BC7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF6BDDA-0CE6-454C-997E-EF99D3B1BC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF6BDDA-0CE6-454C-997E-EF99D3B1BC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF6BDDA-0CE6-454C-997E-EF99D3B1BC7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52727C12-1B2C-4B88-A336-E3136567D160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52727C12-1B2C-4B88-A336-E3136567D160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52727C12-1B2C-4B88-A336-E3136567D160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52727C12-1B2C-4B88-A336-E3136567D160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68FF094-DFB8-4B22-9842-831B1A03B57E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68FF094-DFB8-4B22-9842-831B1A03B57E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68FF094-DFB8-4B22-9842-831B1A03B57E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68FF094-DFB8-4B22-9842-831B1A03B57E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
